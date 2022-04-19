@@ -42,13 +42,13 @@ body{
 .nav ul li a img{
   width: 40px; height: 40px;
 }
-.nav .blue{
+.nav #blue{
   background-color: var(--color-blue);
 }
-.nav .yellow{
+.nav #yellow{
   background-color: var(--color-yellow);
 }
-.nav .pink{
+.nav #pink{
   background-color: var(--color-pink);
 }
 .nav .color_btn{
@@ -64,7 +64,7 @@ body{
   flex-direction: column;
   align-items: center;
   height: 650px;
-  overflow: scroll; /*key point!*/
+  overflow:scroll;
 }
 .contents .cont{
   justify-content: center;
