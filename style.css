@@ -1,0 +1,86 @@
+@import "reset.css";
+
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-black);
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  width: 1200px;
+  margin : 0 auto;
+}
+
+/* 네비게이션 영역 */
+.nav ul{
+  display: flex;
+  justify-content: center;
+}
+.nav ul li{ margin: 5px; }
+.nav ul li a{
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav ul li a img{
+  width: 40px; height: 40px;
+}
+.nav .blue{
+  background-color: var(--color-blue);
+}
+.nav .yellow{
+  background-color: var(--color-yellow);
+}
+.nav .pink{
+  background-color: var(--color-pink);
+}
+.nav .color_btn{
+  padding: 0 10px;
+}
+.nav ul li a:hover{
+  transform: scale(0.9);
+}
+
+
+.contents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  overflow: scroll; /*key point!*/
+}
+.contents .cont{
+  justify-content: center;
+  width: 400px;
+  background-color: var(--color-white);
+  margin: 5px; padding-left: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.contents .cont img{
+  width: 50px; height: 50px;
+}
+.contents .cont span{
+  margin-left: 22px;
+  font-size: 15px;
+  font-weight: 600;
+}
