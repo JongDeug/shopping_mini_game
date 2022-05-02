@@ -1,0 +1,70 @@
+{
+    "items": [
+        {
+            "img": "blue_p",
+            "color": "blue",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_t",
+            "color": "blue",
+            "sort": "t-shirts",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_s",
+            "color": "blue",
+            "sort": "skirts",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_t",
+            "color": "blue",
+            "sort": "t-shirts",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_p",
+            "color": "blue",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_p",
+            "color": "blue",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_p",
+            "color": "blue",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "pink_p",
+            "color": "pink",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "yellow_p",
+            "color": "yellow",
+            "sort": "pants",
+            "info": "man, large size"
+        },
+        {
+            "img": "pink_s",
+            "color": "pink",
+            "sort": "skirts",
+            "info": "man, large size"
+        },
+        {
+            "img": "blue_p",
+            "color": "blue",
+            "sort": "pants",
+            "info": "man, large size"
+        }
+    ]
+}
