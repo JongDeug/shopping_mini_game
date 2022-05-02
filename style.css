@@ -68,8 +68,10 @@ body{
   align-items: center;
   height: 650px;
   overflow:scroll;
-  
   width: 450px;
+}
+.contents::-webkit-scrollbar{
+  display: none;
 }
 .contents .cont{
   justify-content: center;
